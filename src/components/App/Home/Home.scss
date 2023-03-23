@@ -1,0 +1,342 @@
+.hero{
+  display: flex;
+  flex-direction: row;
+
+  &-left{
+    width: 50%;
+    background-color: #DEE6C5;
+    height: 837px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-title{
+    font-family: Frank Ruhl Libre;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 240px;
+  }
+
+  &-description{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 379px;
+  }
+
+  &-button{
+    position: relative;
+    width: 226px;
+    height: 68px;
+    color: #ffffff;
+    background-color: #677C6C;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    box-shadow: 0px 0px 10px 4px #a3a3a3;
+    z-index: 1000;
+
+  }
+
+  &-right{
+    width: 50%;
+    background: url("../../../assets/photo1.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  &-image{
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+  }
+}
+
+.product-examples{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 10rem 4rem;
+  gap: 8rem;
+
+
+  &-item{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    background: url('../../../assets/photo2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  &-subitem{
+    position: absolute;
+    bottom: 18px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  &-item-title{
+    width: 290px;
+    height: 62px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #413531;
+  }
+}
+
+
+.landing-description{
+  width: 100%;
+  height: 837px;
+  background: #DEE6C5;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  &-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  &-left{
+    background-color: blue;
+    width: 50%;
+    width: 434px;
+    height: 551px;
+    background: url('../../../assets/equipe.png');
+    background-position: 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 160px 0px 0px 0px;
+  }
+
+  &-right{
+    width: 50%;
+  }
+
+  &-title{
+    height: 189px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &-text{
+    width: 488px;
+    height: 180px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: #141211;
+  }
+
+  &-bottom{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    position: absolute;
+    width: 649px;
+    height: 146px;
+    top: 2300px;
+    background: #FFFFFF;
+  }
+
+  &-bottom-container{
+    margin: auto;
+  }
+
+  &-stats{
+    width: 148px;
+    height: 78px;
+    top: 2366px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 78px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  &-bottom-container:nth-child(2) {
+    padding: 0 2rem;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+}
+
+.landing-seller{
+  display: flex;
+  width: 100%;
+  padding: 10rem 7rem;
+
+  &-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  &-container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  &-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+  }
+
+  &-title{
+    width: 400px;
+    height: 189px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    text-transform: uppercase;
+  }
+
+  &-text{
+    width: 400px;
+    height: 180px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  &-button{
+    box-sizing: border-box;
+    width: 226px;
+    height: 68px;
+    border: 5px solid #677C6C;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.3px;
+    line-height: 29px;
+    /* identical to box height */
+    text-transform: uppercase;
+    justify-content: left;
+    color: #000000;
+  }
+  &-container-right{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  &-products{
+    box-sizing: border-box;
+    width: 343px;
+    border: 1px solid #DEE6C5;
+    margin: 0 1rem;
+  }
+
+  &-products-title{
+    width: 162px;
+    height: 21px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &-products-price{
+    width: 38px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  &-products:nth-child(1) {
+    margin-right: 1rem;
+  }
+
+  &-products-discount-price{
+    width: 38px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #7D7D7D;
+    margin-right: 1rem;
+  }
+
+  &-products-image{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+
+  &-products-subcontainer{
+    padding: 1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}

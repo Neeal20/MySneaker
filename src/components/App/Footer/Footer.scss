@@ -1,0 +1,44 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  background: #DEE6C5;
+  margin-top: auto;
+  height: 226px;
+
+  &-container-top{
+    display: flex;
+  }
+
+  &-list{
+    display: flex;
+    margin-bottom: 3rem;
+  }
+
+  &-link{
+    padding: 0 1rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.115em;
+    text-transform: uppercase;
+    color: #413531;
+  }
+
+  &-copyright{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    text-align: center;
+    text-transform: capitalize;
+    color: #413531;
+    opacity: 0.67;
+  }
+}
